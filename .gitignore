@@ -2,5 +2,7 @@
 DerivedData
 *.xcuserstate
 xcuserdata/
+*.xcworkspace/contents.xcworkspacedata
+.swiftpm/
 build/
 dist/

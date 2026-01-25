@@ -69,16 +69,22 @@ until hdiutil detach "$MOUNT_DIR" -force; do
   sleep 1
 done
 
-sleep 1
+for _ in {1..5}; do
+  if [[ ! -d "$MOUNT_DIR" ]]; then
+    break
+  fi
+  sleep 1
+done
+sleep 2
 
 convert_attempts=0
 until hdiutil convert "$DMG_RW" -format UDZO -ov -o "$DMG_FINAL"; do
   convert_attempts=$((convert_attempts + 1))
-  if [[ "$convert_attempts" -ge 5 ]]; then
+  if [[ "$convert_attempts" -ge 10 ]]; then
     echo "Failed to convert DMG after multiple attempts." >&2
     exit 1
   fi
-  sleep 1
+  sleep 2
 done
 
 rm -f "$DMG_RW"

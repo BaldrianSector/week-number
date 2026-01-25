@@ -1,28 +1,28 @@
-# week-number-menu-bar
-A simple menu bar app that displays current week.
+# WeekNumber
+A minimal menu bar app that displays the current week number in your menu bar.
 
-## Run
-1. Open the Xcode project: `open WeekNumberMenuBar.xcodeproj`
-2. Select the `WeekNumberMenuBar` scheme
-3. Run the app
-
-## Release (DMG)
-This creates `dist/WeekNumber.dmg` (unsigned).
-
-```
-./scripts/build_dmg.sh
-```
+<img src="screenshots/menubar-week-04.png" alt="Menu bar shows Week 04" width="600">
 
 ## Download
-The most recent release includes this DMG file:
+[Latest WeekNumber release here](https://github.com/BaldrianSector/week-number/releases/download/v1.0.0/WeekNumber.dmg)
 
-```
-WeekNumber.dmg
-```
-
-You can find it attached to the latest GitHub Release for this repo (link below once provided).
+## Install
+1. Open the DMG.
+2. Drag `WeekNumber.app` → `Applications`.
 
 ## Add to Login Items
 1. Open **System Settings** → **General** → **Login Items**.
 2. Under **Open at Login**, click **+**.
 3. Select `WeekNumber.app` (in your Applications folder) and click **Add**.
+
+## Screenshot
+<img src="screenshots/menubar-w-04.png" alt="Menu bar shows W 04" width="600">
+
+
+## Settings
+- **Label Style**: Choose how the week appears in the menu bar.
+
+<img src="screenshots/menu-settings.png" alt="Menu showing label styles and toggles" width="640">
+
+- **Two-digit Format**: Pads single-digit weeks with a leading zero (e.g., `04`).
+- **Use ISO Week (Mon start)**: Uses ISO-8601 week rules (weeks start Monday and week-year can differ near New Year).
