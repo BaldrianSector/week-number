@@ -4,7 +4,7 @@ A minimal menu bar app that displays the current week number in your menu bar.
 <img src="screenshots/menubar-week-04.png" alt="Menu bar shows Week 04" width="600">
 
 ## Download
-[Latest WeekNumber release here](https://github.com/BaldrianSector/week-number/releases/download/v1.0.0/WeekNumber.dmg)
+[Latest WeekNumber release here 📅](https://github.com/BaldrianSector/week-number/releases/download/v1.0.0/WeekNumber.dmg)
 
 ## Install
 1. Open the DMG.
