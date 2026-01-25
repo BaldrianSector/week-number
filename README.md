@@ -9,6 +9,7 @@ A minimal menu bar app that displays the current week number in your menu bar.
 ## Install
 1. Open the DMG.
 2. Drag `WeekNumber.app` → `Applications`.
+3. If macOS blocks it, go to **System Settings** → **Privacy & Security**, scroll to the WeekNumber warning, and click **Open Anyway**. Click **Open Anyway** again in the confirmation dialog and you should be good to go.
 
 ## Add to Login Items
 1. Open **System Settings** → **General** → **Login Items**.
