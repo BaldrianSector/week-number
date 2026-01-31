@@ -1,5 +1,5 @@
 # WeekNumber
-A minimal menu bar app that displays the current week number in your menu bar.
+A minimal macOS app that displays the current week number in your menu bar.
 
 <img src="screenshots/menubar-week-04.png" alt="Menu bar shows Week 04" width="600">
 
