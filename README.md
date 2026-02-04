@@ -27,3 +27,7 @@ A minimal macOS app that displays the current week number in your menu bar.
 
 - **Two-digit Format**: Pads single-digit weeks with a leading zero (e.g., `04`).
 - **Use ISO Week (Mon start)**: Uses ISO-8601 week rules (weeks start Monday and week-year can differ near New Year).
+
+## Contributions
+You can request a feature or report an issue by making a [GitHub issue](https://github.com/BaldrianSector/week-number/issues).
+- If you want to support me as a developer, simply star this project or share it with a friend 🤲🏻
