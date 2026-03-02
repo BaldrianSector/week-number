@@ -31,3 +31,7 @@ A minimal macOS app that displays the current week number in your menu bar.
 ## Contributions
 You can request a feature or report an issue by making a [GitHub issue](https://github.com/BaldrianSector/week-number/issues).
 - If you want to support me as a developer, simply star this project or share it with a friend 🤲🏻
+
+### Featured on:
+- [Awesome open-source Swift macOS Apps](https://github.com/jaywcjlove/awesome-swift-macos-apps)
+- [Mac Menu bar](https://macmenubar.com/weeknumber/)
